@@ -1,0 +1,18 @@
+.header-container {
+    height: 70px;
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    align-items: center;
+    background: var(--primary);
+    gap: 20px;
+}
+
+.header-1 {
+    display: flex;
+    align-items: center;
+}
+
+.title-header {
+    color: var(--secondary);
+    width: auto;
+}
