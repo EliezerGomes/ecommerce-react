@@ -1,0 +1,26 @@
+.container-carosel {
+    display: flex;
+    position: relative;
+}
+
+.column-info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 185px;
+    right: 131px;
+    background: transparent;
+    gap: 10px;
+}
+
+.column-info > h1 {
+    color: var(--primary);
+    background: transparent;
+}
+
+.column-info > button {
+    height: 40px;
+    border-radius: 10px;
+    background: var(--primary);
+    border: none;
+}
